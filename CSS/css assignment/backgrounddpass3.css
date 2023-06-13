@@ -1,0 +1,14 @@
+div{
+    border: 50px groove red;
+    height: 1000px;
+    width: 1000px;
+    background-color: yellow;
+    background-image: url(../imgs/krishnaaa.jpg), url(../imgs/nature3.jpg),
+    url(../imgs/amma.jpg), url(../imgs/bestcouple.jpg),
+    url(../imgs/nature1.jpg),
+     url(../imgs/download.jpg),
+    url(../imgs/nature2.jpg), url(../imgs/1627208137823\ \(3\)-01.jpeg), url(../imgs/nature4.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px,300px,200px,300px,300px,200px,300px,200px,300px;
+    background-position: top left, top center,top right, center left,center center, center right, bottom left, bottom center,bottom right;
+}

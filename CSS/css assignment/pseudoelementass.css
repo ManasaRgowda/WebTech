@@ -1,0 +1,26 @@
+pre::first-letter{
+    color:blue;
+    font-size:40px;
+}
+pre::first-line{
+color:aqua;
+}
+pre::selection{
+    color:purple;
+    background-color: black;
+}
+pre::before{
+    content:"About Yourself==>";
+    color: red;
+}
+pre::after{
+    content: "==>Thank You";
+    color: rgb(156, 5, 56);
+}
+li::marker{
+    color: green;
+    font-size: 20px;
+}
+pre{
+    font-size: 20px;
+}

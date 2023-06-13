@@ -1,0 +1,44 @@
+/* body{
+    background-image: url(imgs/1627208137823\ \(3\)-01.jpeg);
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-size: 800px 400px;
+} */
+/* h1[id]{
+    font-style: italic;
+    font-size: 500px;
+    color: rgb(225, 240, 13);
+}
+h1[id=baby]{
+    font-style: oblique;
+    font-size: 500px;
+    color: rgb(8, 11, 219);
+}
+marquee{
+    font-style: initial;
+    font-size: 500px;
+    color: rgb(250, 24, 148);
+} */
+div{
+    border: 20px dotted blueviolet;
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    background-image: url(imgs/1627208137823\ \(3\)-01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    /* background-clip: padding-box; */
+}
+div[id]{
+    border: 20px dotted blue;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(72, 255, 0);
+    background-image: url(../CSS/imgs/nature3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-origin: padding-box; 
+    /* it is starts from before margin */ 
+}

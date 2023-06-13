@@ -1,0 +1,50 @@
+/* a:link{
+    color: aqua;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: red;
+}
+div{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+}
+div:hover{
+    background-color: #FCC2FC;
+    /* background-color: rgb(20, 150, 255); */
+    /* background-color: rgba(50,200,255,8); */
+    /* background-color: red hsl(10,50,60
+    );
+    border-radius: 480px;
+    
+} */
+/* common based pseudo elements */
+/* div.demo p:first-child{
+    color: red;
+}
+div.demo p:last-child{
+    color: purple;
+}
+ */
+/* div.demo p:nth-child(even){
+    color: green;
+}  */
+/* div.demo p:nth-last-child(4){
+    color: green;
+} */
+ div.demo p:first-of-type{
+    color: blue;
+}
+div.demo p:last-of-type{
+    color: yellowgreen;
+}
+
+h1{
+    background-color: aqua;
+}

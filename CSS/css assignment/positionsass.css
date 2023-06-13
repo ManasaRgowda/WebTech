@@ -1,0 +1,24 @@
+ #main{
+    height: 800px;
+    width: 900px;
+    border: 20px groove rgb(109, 163, 7);
+    overflow: auto;
+    position:relative;
+    background-size: 200px;
+    top: 10px;
+}
+#test img{
+    position:relative;
+    top: 770px;
+    
+}
+#demo img{
+    position:fixed;
+    left:350px;
+    top: 150px;
+}
+#sam img{
+    position:absolute;
+    left: 640px;
+    top: 850px;
+}

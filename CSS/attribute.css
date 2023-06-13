@@ -1,0 +1,13 @@
+/* only by taking attribute name */
+h1[id]{
+    color: blueviolet;
+}
+/* by taking attribute with value */
+h1[id="ga"]{
+    color: rgb(21, 218, 3);
+}
+input[type]{
+    background-color: aqua;
+    height: 200px;
+    width: 150px;
+}

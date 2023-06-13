@@ -1,0 +1,35 @@
+h2{
+     padding: 200px 100px 200px 100px;
+    /* border-width: 10px;
+    border-style: dotted;
+    border-color: blueviolet; */
+    border: 20px dotted blueviolet;
+    margin: 100px;
+    background-color: rgb(243, 182, 166);
+    animation:hii;
+    animation-duration: 8s;
+    /* transform: rotate(10deg); */
+    font-size: 50px;
+}
+@keyframes hii{
+    0%{
+        border: 20px dotted rgb(13, 218, 105);
+    }
+    50%{
+        border: 20px dotted rgb(231, 247, 18);
+    }
+}
+img{
+    animation: hlo;
+    animation-duration: 6s;
+    transform: rotate(0deg);
+}
+@keyframes hlo{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: skewY(50deg);
+    }
+}
+

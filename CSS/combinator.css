@@ -1,0 +1,19 @@
+h1 div{
+    color:brown;
+    background-color:rgb(27, 20, 20) ;
+ }
+ article section{
+    color: blue;
+ } 
+ div>p{
+    background-color: aqua;
+    font-style: italic;
+    font-size: 30px;
+    color:rgb(151, 9, 104);
+ }
+ header+h1{
+    background-color: pink;
+ }
+ header~h1{
+    background-color: pink;
+ }

@@ -1,0 +1,16 @@
+h1 div{
+    color: aquamarine;
+background-color: black;
+}
+pre>p{
+    color: yellow;
+    background-color: red;
+}
+article+h2{
+    color:blue;
+    background-color: pink;
+}
+header~h1{
+    color: rgb(245, 123, 8);
+    background-color: rgb(4, 85, 4);
+}

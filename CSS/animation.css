@@ -1,0 +1,41 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 10px groove red;
+    border-radius: 90px;
+    background-color: yellow;
+    animation: hlo;
+    animation-duration: 6s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+/* @keyframes hlo{
+    from{
+        background-color: yellow;
+        border: 10px groove red;
+        border-radius: 0px;
+
+    }
+    to{
+        background-color: rgb(230, 67, 8);
+        border: 10px dotted black;
+        border-radius: 360px;
+    }
+} */
+@keyframes hlo{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateY(100%);
+    }
+    50%{
+    transform: translateX(100%) translateY(100%);
+    }
+    75%{
+       transform: translateX(100%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}

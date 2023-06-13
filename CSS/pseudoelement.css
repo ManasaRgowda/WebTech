@@ -1,0 +1,27 @@
+pre::first-letter{
+color: red;
+font-style: italic;
+font-size: 50px;
+}
+pre::first-line{
+    color:blue;
+}
+pre::selection{
+    background-color: yellow;
+    color: blueviolet;
+}
+pre::before{
+    content: "Headlines==>";
+    color: brown;
+}
+pre::after{
+    content: "So don't celebrate valentine's day today";
+    color: rgb(7, 83, 155);
+}
+li::marker{
+    color: green;
+    font-size: 30px;
+}
+pre{
+    font-size: 20px;
+}

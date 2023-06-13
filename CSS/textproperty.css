@@ -1,0 +1,45 @@
+/* text color */
+p{
+    color: rgb(214, 115, 115);
+    background-color: cyan;
+}
+/* text align */
+h1{
+    text-align: center;
+}
+/* text shadow */
+h2{
+    font-size: 50px;
+    color: darkred;
+    text-shadow: 6px 6px 2px green ;
+}
+/* text decoration */
+pre{
+    font-size: 50px;
+text-decoration: underline;
+/* text-decoration: overline;
+text-decoration: line-through; */
+/* text-decoration-line: underline; */
+text-decoration-color: blue;
+text-decoration-style: dotted;
+text-decoration-thickness: 8px;
+/* letter spacing is for spacing b/w the letters/characters */
+letter-spacing: 5px; 
+/* word spacing is for spacing b/w the words */
+word-spacing: 10px;
+}
+
+/* text align and shadow */
+h3{
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(245, 118, 139);
+    text-shadow: 4px 4px 2px rgb(8, 113, 173);
+}
+article{
+    text-indent: 30px;
+    text-transform: uppercase;
+    /* no warp,prewrap */
+    white-space: wrap;  
+ }

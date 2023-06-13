@@ -1,0 +1,25 @@
+div{
+    height:300px;
+    width: 300px;
+    border:10px dotted white;
+    background-color: black;
+    transition-duration: 5S;
+    border-radius: 20px;
+}
+div:hover{
+    /* if u give -/negative value for deg the element moves in opposite direction */
+    transform: rotate(-60deg);
+    /* its moving like marriage, first value indicates x axis and 2nd value indicates y axis */
+    transform: skew(90deg,120deg);
+    transform: skewX(160deg);
+    transform: skewY(160deg);
+    transform: scale(2,2);
+    transform: scaleX(2);
+    transform: scaleY(2);
+    /* translate to move both on x and y axis at a time */
+      transform: translate(100px,200px);   
+    /* tansform matrix used to combine all the above */
+
+transform:matrix(0.5,2,2,0.5,10,20);
+background-color:rgb(240, 54, 230);
+}

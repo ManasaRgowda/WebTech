@@ -1,0 +1,76 @@
+#div1{
+    height: 100px;
+    width: 200px;
+    border:10px groove chartreuse;
+    background-color: red;
+    transition: width 2s,height 4s;
+    /* transition: width 2s ease 5s: to shortand property */
+    transition-property: height,width,border-color;
+    transition-delay: 2s,2s,2s;
+    transition-duration: 5s,5s,5s;
+    transition-timing-function: ease,ease,ease;
+}
+#div1:hover{
+    height: 200px;
+    width: 400px;
+    background-color:chartreuse;
+    border-color:red;
+}
+
+ #div2{
+    height: 200px;
+    width: 300px;
+    border:10px groove rgb(247, 29, 156);
+    background-color: rgb(47, 4, 240);
+    transition: width 2s,height 4s;
+    transition-property: height,width,border-color;
+    transition-delay: 3s,3s,3s;
+    transition-duration:4s,4s,4s;
+    transition-timing-function: ease-in,ease-in,ease-in;
+    margin-top: 30px;
+}
+#div2:hover{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(247, 29, 156);
+    border-color: rgb(47, 4, 240);
+} 
+
+#div3{
+    height: 300px;
+    width: 400px;
+    border:10px groove  rgb(230, 212, 222);
+    background-color: black;
+    transition: width 2s,height 4s;
+    transition-property: height,width,border-color;
+    transition-delay: 3s,3s,3s;
+    transition-duration: 6s,6s,6s;
+    transition-timing-function: ease-out,ease-out,ease-out;
+    margin-top: 30px;
+}
+#div3:hover{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(230, 212, 222); 
+    border-color: black;
+} 
+
+#div4{
+    height: 400px;
+    width: 500px;
+    border:10px groove green;
+    background-color:purple;
+    transition: width 2s,height 4s;
+    transition-property: height,width,border-color;
+    transition-delay: 3s,3s,3s;
+    transition-duration: 5s,5s,5s;
+    transition-timing-function: ease-in-out,ease-in-out,ease-in-out;
+    /* to get space b/w adjucent div or u can use (position:relative and top:30px)*/
+    margin-top: 30px;
+}
+#div4:hover{
+    height: 600px;
+    width: 700px;
+    background-color: seagreen;
+    border-color:purple ;   
+} 

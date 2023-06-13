@@ -1,0 +1,23 @@
+h1{
+    height: 400px;
+    width: 600px;
+    /* border-width:10px;
+    border-style:solid;
+    border-color: red; */
+    border: 50px solid;
+    border-radius: 30px;
+    background-color:pink;
+    border-top-width: 50px;
+    border-bottom-width:50px;
+    border-left-width:50px;
+    border-right-width:50px;
+    border-top-color: red;
+    border-bottom-color:yellow;
+    border-right-color:blue;
+    border-left-color: purple;
+    border-top-style: dashed;
+    border-bottom-style:dotted;
+    border-right-style:ridge;
+    border-left-style:inset;
+    opacity: 0.7;
+}

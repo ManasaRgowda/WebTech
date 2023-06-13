@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="boot.css">
+    <link rel="icon" type="image/x-icon" href="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.54.6">
+</head>
+<body>
+  <!-- ZEE5 -->
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+        <div class="container-fluid"> 
+            <img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.54.6" title="ZEE5 Logo" alt="ZEE5 Logo" width="40px" height="40px">
+          <a id="demo1" class="navbar-brand" href="#" style="position: relative; left: 25px;">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="demo2"class="nav-link active" aria-current="page" href="#">TV shows</a>
+              </li>
+              <li class="nav-item">
+                <a id="demo3" class="nav-link" href="#" style="color: white;">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a id="demo4"class="nav-link" href="#" style="color: white;">Cricket</a>
+              </li>
+              <li class="nav-item">
+                <a id="demo5" class="nav-link" href="#" style="color: white;">Web Series</a>
+              </li>
+              <li class="nav-item">
+                <a id="demo6" class="nav-link" href="#" style="color: white;">News</a>
+              </li>
+              <li class="nav-item">
+                <a id="demo7" class="nav-link" href="#" style="color: white;">Edua</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              
+            </ul>
+            <form class="d-flex">
+              <input id="demo8" class="form-control me-2" type="search" placeholder="Search for movies,shows etc" aria-label="Search">
+              <button id="demo10" class="btn btn-outline-success" type="submit" placeholder="Login">Login</button>
+              <button id="demo9" class="btn btn-outline-success" type="submit">BUY PLAN</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-101-10z5305431/cover/1920x77088685fee485041ddafc8c33c4fa88347.jpg" class="d-block w-85" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-0-1z5262285/cover/1920x770a596aaef0aa54d8ba4de9a545c7f9f9c.jpg" class="d-block w-85" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco/resources/0-6-3506/cover/1920x770a3b8f8d73d3f4ff481ab7e6834828a79.jpg" class="d-block w-85" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- to put next images under carousel -->
+<div id="demo"></div>
+
+<h5 id="hh1">Trending near you</h5>
+<div id="image1">
+<img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/portrait/1920x7709a91159cade2479ba9d648c2fd15914ac15d91e4557c47ef9e2c3045a51a0e59.jpg" alt="">
+<img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5322978/portrait/1920x770d245241a9ad44b829d822d5373cca94b.jpg" alt="">
+<img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5318993/portrait/1920x770bdf8f897702c42339305ee8a1696e92dbeb8d9e8e3e94fa38d9fcbbd75a92794.jpg" alt="">
+<img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5273898/portrait/1920x770fc66179517a74cdaadd64730922d0611.jpg" alt="">
+<img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-8-626/portrait/cover1920x770acae6c8291054cb9a4fee9cc6c74e93f.jpg" alt="">
+<!-- <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-0-1z5285324/portrait/1920X77048f47c0c2abc47999a95c8bd725338c1.jpg" alt=""> -->
+</div>
+
+<h5 id="hh2">Top 10 Web Series in India</h5>
+
+<div id="image2">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5327133/portrait/1920x770e1768e4c4932432fbaca88b6dad237f6.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5327682/portrait/1920x770d49d13f604b440cca574a0135677c7ce0ceaf8f4f64244848a3dfebe213d043c.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5289752/portrait/1920x7707257d20a0e164ccabc5c819887aa271f.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5310699/portrait/1920x77053a13959c7fc419a87153ffdc5676c5ec1e20aaa54ad4103992e48ea968f243d.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-3348/portrait/1920x770acd21309a3cc4de885047d4069ecd00d.jpg" alt="">
+  <!-- <img src="https://akamaividz2.zee5.com/image/upload/w_195,h_293,c_scale,f_webp,q_auto:eco/resources/0-6-4z5281686/portrait/1920x7704af47d1e734948e381572ad1b52a4ecb4df6c4abb1824eac8df67df6ee440910.jpg" alt=""> -->
+</div>
+
+<h5 id="hh3">Latest Kannada Episodes Free</h5>
+<div id="image3">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5344937/list/00000266a16f380d23a94709912d6e9fe64ef9ea.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5345013/list/00000031267ff349ac6941139e0f59c79c03c539.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5345208/list/00000111a1b1cff0376b4152905b371432fefbb0.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5344829/list/00000251175586da071f4c54bbb216bcad0ba5df.jpg" alt="">
+  <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5345172/list/00000259669aa5eb12214c97aaf8cf82f2d80a57.jpg" alt="">
+  <!-- <img src="https://akamaividz2.zee5.com/image/upload/w_223,h_125,c_scale,f_webp,q_auto:eco/resources/0-1-6z5344918/list/0000024831187f4738b5472c8d53912aedef9827.jpg" alt=""> -->
+</div>
+
+<nav id="nav1">
+  <a class="navbar-brand" href="#" style="position: relative; color:white; left: 80px; font-size: 12px;"><b>Download Apps</b></a>
+  <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi00JXZhbP-AhUammYCHTNxCfEYABAAGgJzbQ&ohost=www.google.com&cid=CAESauD2_HLTMtMIGmHvHuuUfScm0HXxU37EDqx0p7C3b2lrzNLrsriP5lzsjD1xtWyI7jlx6QCcspMxGQizP3FO25ne8mfilgV3IadH0rQMQt5yICBzK03oHYM_iOp14fPzom2mVgKNn9JYCRc&sig=AOD64_1byrP6dQdo6InhclaHy3Co29c6cg&q&adurl&ved=2ahUKEwiBqo7ZhbP-AhUxR2wGHVqnDB0Q0Qx6BAgJEAE"><img src="https://www.zee5.com/images/play_store.png?ver=3.5.0" style="position: relative; left: 85px; height: 30px;" alt=""></a> 
+  <a href="https://www.apple.com/in/app-store/"><img  src="https://www.zee5.com/images/app_store.png?ver=3.5.0" style="position: relative; left: 90px; height: 30px;" alt=""></a> 
+  <a class="navbar-brand" href="#" style="position: relative; color:white; left: 500px; font-size: 12px;"><b>Connect with us</b></a>
+  <a href="https://www.facebook.com/ZEE5/" style="position: relative; left: 630px;" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEUAAAD////d3d3p6el0dHTW1tY0NDS3t7fR0dHa2tqVlZXBwcGqqqrMzMwsLCx8fHz5+fmFhYWPj49VVVVnZ2ecnJyxsbGkpKTv7+85OTlGRka7u7s/Pz9hYWFLS0sfHx+MjIwNDQ0XFxe4dxQDAAACY0lEQVR4nO3d23KCMBRAUYsWBcQ7amtbtf//kX3oZRhNIAiZ5Jzu/aw5s6bUVsQwGhEREREREREREREREREREREREf3flkWWhCwr1l59k9VTBC39AavQtp/mvoCT0LK/fB2pURyi3/kBLkOzam28CIvQrFqlF2EWmlVr7EWYhGbVQogQYfgQIkQYPoQIEYZPqDAp94cqz/PqMJ9PizJLjoqEq2L9Yhy6eFUhLHcNYxUIT4vGseKFSdoyVrowbx0rXLhtHytb2HaEihe6AEULHQ5R2cLKbaxcYeI4Vq7wTbuwcB0rVtj8r5oCofuHR1KFTe8mVAhX7mOFCp1fZ8QKO1wwIlTY8Er6Xk3LWS2hQuuQqdvzoxdmlhEfrgtELzyZJ5ydF4heeDBPKPUIL8YBV/cFohea/1h0uOgqeuHEOGCuXtjhsjKhwmeECBEiRIgQIUKECBEi7JT5HXCHAZEJF+ltn8YB949L07N5amTCXlPNV+9pEpqXVCRM1Qt36oUX9ULLGUZFQsuJfkVCy1BFQsv3x/UIr5Yl9QjNV+prEtq2cdAjzNUL9+qFts+99QjH6oW2JRE+VgDhVr3QuqtRZMLpbSfzNy2q0+0DrRvGRCa8z3y+tMMGOEKFms4II0SIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChL0b8N55kQoHvP9hb+HMi3AdkbD9hgMPFZHQD3DAG5H2FXr6EXbaFM+r0LJ15hAN9avYT+jnRrK/bcpx/47mva4Ll+eW3o5QIiIiIiIiIiIiIiIiIiIiIiIiAX0BPL5NLMb8j/cAAAAASUVORK5CYII=" alt="facebook" style="position: relative; right:145px; height: 35px;" ></a>
+  <a href="https://www.instagram.com/"  style="position: relative; left: 635px;"><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-_k3HXQ-4y02IINLdptYri4pv-RldcFM9w&usqp=CAU" alt="instagram" style="position: relative; right:150px; height: 25px;" ></a>
+  <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAZlBMVEUAAAD8/vz////29/b6+/pSU1Lg4eBXWFfz9PPV1tWdnJ3n6OeYmZhbXFuTlJM1NjXDxMOtrq3u7u4rLCtpamnNzc0JCQlCQ0J2d3aHiIdLTEunqKeBgoG8vbyztLM6OzoeHx4UFRSahWBmAAAEGUlEQVRoge2aa996TBDHMySbtiRCVHr/b/LvlNtmlp21rie337P6sF/GnPaw223atGnTpnVVpsdWRfRnzPfJh4HY+fYHUM4sAGugihw8sCsv3Bj0EYvMjmwFl98r37lTmKKeHATagD2RkTxtcIU/XtrQG/qqX1O/7v11KXMq0wvedoWrJvXtS6ENmH3qq8r9M6yfDmLhiT2AXI9qTVIrkJ+mWVB7ef3LSYY3Z/WD6HDLcIba+DR8PwOchLvj+m8drjdLFZ5A9KBL2P5L5j5pVCbeffjagOhX0SLq7vS9HUhx9Jn/sBj1EPBfWwG7SykjnUjU9o2i3O+DiP13P7iJnCNKwYsHKnYlP8dV8IL/HWCArRKaatXKKFSHuWETSOD1iXqIreLsrIZlNIdqYxc8LhsAApVaeSBRv0MPqKPnBkfB0CQb9yOnk+aCoDRr43ZUyIYj5OMRwMlkvE4uGQvWXhihwEaoSscUlZYrWupPl/PALwM20ffcp+ssMpw7GkNisAosfeOHTaQ+x2O8ZE8O4Eo6T06jWoBYbi83GID34kii5lQbYzE5GQ1g+fn+947EM4CdqZxVYnOve8HaVJcCtLTNBn+VUz2WR7dSF4tR1TJsXUL8+HXij/eHmqVwLJappOhKjkOCSrE7avgTZUuw63KRHNXpIptBGcH6I94jb0PjRi8q6thxT/q27bxJXR+NGqqKHbfgZT0x8oMzT4htPgU7Lt/32rh1VNjuambGcmNvW/kEeamc0XpCPalei9YLC9t0daw4i+90IRYxDewRwa7nwD0Wbbwfa2O9D4bdBetyRzPqTsnKWNlsTto7msHKGu5y1fIjrXr4hMQUdmIJaE0zj9rdgVbzZnAn12HW4v4s+f2VnWFu8adYo/KhZUDUm5kHS4NWeGHfMHjGoXpFMZgkI12URJeMmcN65Rzuxg+N9mlsjDoXPbt6ht7LGNZW+LLm+1WFl12hl4NQgWr+dfEeaqSJJRstqrzQijLbqQMyF0BVmjSzkj+1Mji5lvWLqBJTXLCUdztMctWTccc18n2xJdVpfZ7LsyO4+PxjUmm4EAwh6cP2OtuLwEotBarC1S9FMLnPMEvOmRZZdeNsQiUn7goYoe5S2ka4GeotIBsZX6cgKaNnLEL+l4jT1yDBWmrhw8SpFSnVXhQ51ZtqQKuMiB5WUtUtc7XCNSAcKPjVPQv0coR+4NwjzbxEOsNQKeL7RlF+zANPOwsDMVovbHhyTgtZQ2PVHrEX13IfAeprnTBMl4ArKLFpGoB1orSDFhrdSy8eO/SkDxZLl0BrJUef5FT1Js6ipNQrunpq5Ho3N16YfgXxq+9Moptt1DCPFuRBXGWaM3scyN0/HsuL9Y7FltH5GLPhKVyXxccs+ouDuJs2bdr0/9Q/ZE06neAC4JYAAAAASUVORK5CYII=" style="position: relative; left: 490px; height: 30px;"  alt=""></a>
+  <a href="https://www.youtube.com/"><img src="data:image/png;base64,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" style="position: relative; left: 495px; height: 23px;"  alt=""></a>
+</nav>
+
+<p id="tt">AboutUs | HelpCenter | PrivacyPolicy | TermsofUse </p>
+
+<div id="tt1">
+<table style="border:1px solid rgb(11, 12, 10); height:90%; width:86%;" cellpadding="5px" cellspacing="5px"> 
+ 
+  <tr>
+     <th style="color: white; ">Popular TV Shows</th>
+     <th style="color: white; ">Premium Movies</th>
+     <th style="color: white; ">Popular LIVE TV Channel</th>
+     <th style="color: white; ">Popular Web Series</td>
+     <th style="color: white; ">Bollywood Celebrities</th>
+     <th style="color: white;">Games & News</th>
+  </tr>
+ <tr> 
+     <td>Kumkum Bhagya</td>
+     <td>RRR</td>
+     <td>Aaj Tak</td>
+     <td>Taj</td>
+     <td>Sunny Leone</td>
+     <td>Play</td>
+ </tr>
+  <tr>
+    <td>Kundali Bhagya</td>
+    <td>Uunchai</td>
+    <td>Zee News</td>
+    <td>Sunflower</td>
+    <td>Disha Patani</td>
+    <td>Stories</td>
+  </tr>
+  <tr>
+    <td>Bhagya Lakshmi</td>
+    <td>Uri:The Surgical Strike</td>
+    <td>Zee TV HD</td>
+    <td>Tripling</td>
+    <td>Deepika Padukone</td>
+    <td>Articles</td>
+  </tr>
+  <tr>
+    <td>Meet</td>
+    <td>Dial 100</td>
+    <td>&TV HD</td>
+    <td>Pitchers</td>
+    <td>Salman Khan</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Annapoorna</td>
+    <td>Helmet</td>
+    <td>Zee Marathi HD</td>
+    <td>Naxalbari</td>
+    <td>Nora Fatehi</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Indira</td>
+    <td></td>
+    <td></td>
+    <td>Anantham</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Gaalivana</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

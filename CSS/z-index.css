@@ -1,0 +1,39 @@
+#main{
+    height: 700px;
+    width: 700px;
+    border: 30px groove rgb(100, 31, 31);
+    background: linear-gradient(50deg,orange,green,rgb(253, 75, 238));
+    position: relative;
+}
+#div1{
+    height: 400px;
+    width: 400px;
+    border: 10px groove rgb(54, 235, 84);
+    background-color: rgb(241, 84, 11);
+    position: absolute;
+    z-index:100;
+}
+#div2{
+    height: 300px;
+    width: 300px;
+    border: 10px groove rgb(22, 7, 233);
+    background-color: rgb(247, 64, 177);
+    position: absolute;
+    z-index:200;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    border: 10px groove rgb(1, 14, 13);
+    background-color: rgb(40, 211, 241);
+    position: absolute;
+    z-index:300;
+}
+#div4{
+    height: 150px;
+    width: 150px;
+    border: 10px groove rgb(12, 54, 2);
+    background-color: rgb(224, 247, 23);
+    position: absolute;
+    z-index:600;
+}

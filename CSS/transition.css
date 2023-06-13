@@ -1,0 +1,31 @@
+#hi{
+    height: 500px;
+    width: 600px;
+    border: 20px groove blueviolet;
+    background-color: rgb(241, 172, 149);
+    background-image: url(../CSS/imgs/poooo.jpg);
+    background-repeat:repeat;
+    background-size: 200px 200px;
+}
+#test{
+    height: 100px;
+    width: 100px;
+    border: 10px solid rgb(228, 125, 188);
+    background-color: darkorange;
+    background-image: url(../CSS/imgs/maanuuu.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 150px;
+    top: 100px;
+transition: width 4s, height 6s;
+transition-property: width,height;
+transition-duration: 5s;
+transition-delay: 3s;
+transition-timing-function: ease;
+}
+#test:hover{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+}

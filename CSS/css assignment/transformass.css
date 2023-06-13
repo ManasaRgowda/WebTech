@@ -1,0 +1,131 @@
+ #main{
+    height:600px;
+    width: 600px;
+    border:10px dotted white;
+    background-color: black;
+    position: relative;
+    /* display: flex; */
+}
+#div1{
+    height: 200px;
+    width:200px;
+    background-image: url(../imgs/doll1.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top left;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div1:hover{
+    transform: rotate(360deg);
+}
+ 
+#div2{
+    height: 200px;
+    width:200px;
+    background-image: url(../imgs/amma.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top center;
+    left: 200px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div2:hover{
+    transform: skew(50deg);
+}
+
+#div3{
+    height: 400px;
+    width:150px;
+    background-image:url(../imgs/nature4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    background-position: top right;
+    left: 450px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div3:hover{
+    transform: skewY(50deg);
+}
+
+img{
+    height: 150px;
+    width:150px;
+    /* background-image:url(../imgs/1627208137823\ \(3\)-01.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center left; */
+    top: 220px; 
+    transition: height width;
+    transition-duration: 4s;
+    position: absolute;
+}
+img:hover{
+    transform: translate(100px,200px); 
+}
+#div5{
+    height: 200px;
+    width:200px;
+    background-image:url(../imgs/bestcouple.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: center center;
+    top: 200px;
+    left: 200px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div5:hover{
+    transform: skewX(150deg);
+
+}
+
+#div6{
+    height: 200px;
+    width:200px;
+    background-image:url(../imgs/download.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center right;
+    top: 200px;
+    left: 370px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div6:hover{
+    transform: scale(3,3);
+}
+
+#div7{
+    height: 350px;
+    width:200px;
+    background-image:url(../imgs/nature1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: bottom left;
+    top: 250px;
+    left: 50px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div7:hover{
+    transform: scaleX(2);
+}
+
+#div8{
+    height: 200px;
+    width:200px;
+    background-image:url(../imgs/doll4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: bottom right;
+    top: 400px;
+    left: 250px;
+    transition-duration: 4s;
+    position: absolute;
+}
+#div8:hover{
+    transform:matrix(0.5,2,2,0.5,10,20);
+}

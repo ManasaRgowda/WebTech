@@ -1,0 +1,71 @@
+#divm{
+display: inline-flex;
+}
+
+#div1{
+    height: 100px;
+    width: 600px;
+    border:10px groove chartreuse;
+    background-color: red;
+    transition: width 2s;
+    transition-property: width,border-color;
+    transition-delay: 1s,1s;
+    transition-duration: 2s,2s;
+    transition-timing-function:ease,ease;
+}
+#div1:hover{
+    width:800px;
+    background-color:chartreuse;
+    border-color:red;
+}
+
+ #div2{
+    height: 100px;
+    width: 600px;
+    border:10px groove rgb(247, 29, 156);
+    background-color: rgb(47, 4, 240);
+    transition: width 2s;
+    transition-property: width,border-color;
+    transition-delay: 1s,1s;
+    transition-duration: 2s,2s;
+    transition-timing-function: ease-in,ease-in;
+}
+ #div2:hover{
+    width: 800px;
+    background-color: rgb(247, 29, 156);
+    border-color: rgb(47, 4, 240);
+} 
+
+#div3{
+    height: 100px;
+    width: 500px;
+    border:10px groove  rgb(230, 212, 222);
+    background-color: black;
+    transition: width 2s;
+    transition-property: width,border-color;
+    transition-delay: 1s,1s;
+    transition-duration: 2s,2s;
+    transition-timing-function:ease-out,ease-out;
+}
+ #div3:hover{
+    width: 800px;
+    background-color: rgb(230, 212, 222); 
+    border-color: black;
+} 
+
+#div4{
+    height: 100px;
+    width: 500px;
+    border:10px groove green;
+    background-color:purple;
+    transition: width 2s;
+    transition-property: width,border-color;
+    transition-delay: 1s,1s;
+    transition-duration: 2s,2s;
+    transition-timing-function: ease-in-out,ease-in-out;
+}
+ #div4:hover{
+    width: 800px;
+    background-color: seagreen;
+    border-color:purple ;   
+} 

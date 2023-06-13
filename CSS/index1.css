@@ -1,0 +1,14 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 10px solid red;
+    font-size: 30px;
+    background-color: yellow;
+    /* to get all the content with same line when all the element are displyed in diff places */
+    display: flex;
+    /* to disply content in top centrer, space-around is used to get around the element,
+    space-between is used to get space b/w the content/ */
+     justify-content:space-around;
+    /* to display content in the middle of the div */
+    align-items: center;
+}

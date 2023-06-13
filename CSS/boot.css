@@ -1,0 +1,168 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+#carouselExampleIndicators{
+    position: relative;
+    left: 150px;
+}
+#demo{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://akamaividz2.zee5.com/image/upload/w_1286,h_236,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/homefeed_launcher_sticker/1312x312f0f3b262c0d7407f8ab773eeb3d4d60a.jpg);
+background-repeat: no-repeat;
+position: relative;
+top: 30px;
+
+}
+
+#demo2{
+    position: relative;
+    left:30px;
+}
+#demo3{
+    position: relative;
+    left:50px;
+}
+#demo4{
+    position: relative;
+    left:70px;
+}
+#demo5{
+    position: relative;
+    left:90px;
+}
+#demo6{
+    position: relative;
+    left:110px;
+}
+#demo7{
+    position: relative;
+    left:130px;
+}
+#demo8{
+    background-color: black;
+    outline: 2px groove white;
+    width: 300px;
+    height: 35px;
+    position: relative;
+    right:80px;
+}
+#demo9{
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    right:20px;
+}
+
+#demo10{
+    background-color:black;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    position: relative;
+    right:40px;
+    outline: 1px solid white;
+}
+#demo10:hover{
+    background-color: white;
+    color: black;
+}
+#image1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 260px;
+    border-radius: 40px;
+    transition-duration: 1S;
+    }
+    #hh1{
+        color: white;
+        position: relative;
+        bottom: 270px;
+        text-indent: 20px;
+    }
+#image1:hover{
+        background-color: white;
+        color: black;
+        /* transform: scaleX(1); */
+        transform: translateZ(0);   
+
+    }
+#image2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 240px;
+    border-radius: 40px;
+    }
+    #hh2{
+        color: white;
+        position: relative;
+        bottom: 250px;
+        text-indent: 20px;
+}
+#image2:hover{
+    background-color: white;
+    color: black;
+    transition: width 1s, height 1s;
+    transition-property: width,height;
+    transition-duration: 2s;
+}
+
+#image3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 220px;
+    border-radius: 40px;
+    }
+    #hh3{
+        color: white;
+        position: relative;
+        bottom: 230px;
+        text-indent: 20px;
+}
+#image3:hover{
+    background-color: white;
+    color: black;
+    transition: width 1s, height 1s;
+    transition-property: width,height;
+    transition-duration: 2s;
+}
+#image4{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 220px;
+    /* right: 60px; */
+    }
+    h6{
+       color: white;
+        position: relative;
+        bottom: 180px;
+        text-indent: 90px;
+    }
+    #nav1{
+        position: relative;
+        bottom: 150px;
+    }
+   #tt{
+    color: white;
+    text-indent: 80px;
+    font-size: 10px;
+    position: relative;
+    bottom:120px ;
+    /* letter-spacing: 1.5px;  */
+    word-spacing: 15px;
+    white-space: wrap;
+   }
+#tt1{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+}

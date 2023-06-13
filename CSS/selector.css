@@ -1,0 +1,38 @@
+#demo{
+    font-size: 50px;
+    font-style: oblique;
+    color: rgb(235, 8, 8);
+    background-color: aliceblue;
+    animation: hiii 15s;
+    transform: rotate(0deg);
+}
+@keyframes hiii{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        color:blue;
+        transform: rotate(360deg);
+    }
+}
+
+.test{
+    font-size: 50px;
+    font-style:italic;
+    color: rgb(71, 3, 110);
+
+}
+article{
+    font-size: larger;
+    color: rgb(8, 8, 8);
+}
+
+p,h6,pre{
+    font-size:xx-large;
+    font-style: oblique;
+    color: rgb(37, 2, 70);
+      background-color: aqua;
+}
+*{
+    background-color: rgb(214, 214, 9);
+}

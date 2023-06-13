@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+nav{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2455f4;
+    list-style: none;
+}
+nav #flip{
+    position: relative;
+    left: 100px;
+    top: 5px;
+}
+nav input{
+    position: relative;
+    top: 6.5px;
+    left: 10px;
+    height: 30px;
+    width: 300px;
+}
+nav button{
+    height: 30px;
+    width: 70px;
+    position: relative;
+    top: 8.5px;
+}
+nav .demo{
+    position: relative;
+    top: 15px;
+}
+nav svg{
+    position: absolute;
+    top: 15px;
+    right: 700px;
+    cursor: pointer;
+}

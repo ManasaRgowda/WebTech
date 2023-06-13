@@ -1,0 +1,107 @@
+div{
+    height: 100px;
+    width: 100px;
+    background:radial-gradient(chartreuse,orangered);
+    border-radius: 360px;
+    position: absolute;
+    top: 300px;
+    animation: snake;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation: snake 5s infinite;
+   animation name, animation-duration,animation-iteration-count */
+}
+@keyframes snake{
+    0%{
+          top: 300px;
+    }
+   
+    50%{
+        top: 0px;
+    }
+    
+    100%{
+       top: 300px;  
+  }
+}
+#div1{
+        animation-delay: 1s;
+        left: 0;
+}
+#div2{
+    animation-delay: 1.5s;
+    left: 100px;
+}
+#div3{
+    animation-delay: 2s;
+    left: 200px;
+}
+#div4{
+    animation-delay: 2.5s;
+    left: 300px;
+}
+#div5{
+    animation-delay: 3s;
+    left: 400px;
+}
+#div6{
+    animation-delay: 3.5s;
+    left: 500px;
+}
+#div7{
+    animation-delay: 4s;
+    left: 600px;
+}
+#div8{
+    animation-delay: 4.5s;
+    left: 700px;
+}
+#div9{
+    animation-delay: 5s;
+    left: 800px;
+}
+#div10{
+    animation-delay: 5.5s;
+    left: 900px;
+}
+#div11{
+    animation-delay: 6s;
+    left: 1000px;
+}
+#div12{
+    animation-delay: 6.5s;
+    left: 1100px;
+}
+#div13{
+    animation-delay: 7s;
+    left: 1200px;
+}
+#div14{
+    animation-delay: 7.5s;
+    left: 1300px;
+}
+#div15{
+    animation-delay: 8s;
+    left: 1400px;
+}
+#div16{
+    animation-delay: 8.5s;
+    left: 1500px;
+}
+#div17{
+    animation-delay: 9s;
+    left: 1600px;
+}
+#div18{
+    animation-delay: 9.5s;
+    left: 1700px;
+}
+#div19{
+    animation-delay: 10s;
+    left: 1800px;
+}
+#div20{
+    animation-delay: 10.5s;
+    left: 1900px;
+}
